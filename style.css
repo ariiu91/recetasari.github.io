@@ -1,0 +1,112 @@
+body {
+ /* font-family: 'Montserrat';*/
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 300px;
+  font-size: 45px;
+}
+html
+{
+  body {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230903/pngtree-light-blue-checkered-cotton-background-photo-5870445-image_13209127.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en la página */
+}
+
+}
+
+p {
+  padding-top: 3rem;
+  padding-left: 300px;
+  padding-right: 100px;
+}
+
+div {
+  border: 10px solid rgba(255, 255, 255, 0);
+}
+
+.titulo{
+  text-align:flex-start;
+}
+
+.container-titulo{
+  display: flex;
+  background: rgba(30, 69, 241, 0);
+  width: 100%;
+  color: rgb(0, 0, 0);
+  border: 10px solid rgba(5, 132, 206, 0);
+  padding-bottom: 3rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.container-about{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  border: 10px solid rgba(0, 38, 255, 0);
+  padding-bottom: 3rem;
+  text-align: center;
+} 
+.container-recetas{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  border: 10px solid rgba(1, 80, 227, 0);
+  padding-bottom: 3rem;
+  text-align: center; 
+}
+
+.recetas{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.imagen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 10px solid rgba(255, 255, 255, 0);
+}
+
+.imagen img{
+  width: 250px;
+  height: 250px;
+  border: 10px solid rgba(11,98,138);
+}
+.styled {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgb(220 0 0 / 100%);
+  background-image: linear-gradient(
+    to top left,
+    rgb(0 0 0 / 20%),
+    rgb(0 0 0 / 20%) 30%,
+    rgb(0 0 0 / 0%)
+  );
+  box-shadow:
+    inset 2px 2px 3px rgb(255 255 255 / 60%),
+    inset -2px -2px 3px rgb(0 0 0 / 60%);
+}
+
+.styled:hover {
+  background-color: rgb(255 0 0 / 100%);
+}
+
+.styled:active {
+  box-shadow:
+    inset -2px -2px 3px rgb(255 255 255 / 60%),
+    inset 2px 2px 3px rgb(0 0 0 / 60%);
+}
